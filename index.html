@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Harode | Cybersecurity Enthusiast</title>
+    <meta name="description" content="Portfolio of Rohit Harode, a passionate cybersecurity professional.">
+    <!-- Google Fonts for modern hacker aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Matrix Canvas -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">RH<span class="highlight">_</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="greeting">Hello, world! I am</p>
+            <h1 class="glitch" data-text="Rohit Harode">Rohit Harode</h1>
+            <h2 class="subtitle">Cybersecurity Enthusiast & B.Tech Student</h2>
+            <p class="hero-desc">Dedicated to understanding network infrastructures, finding vulnerabilities, and implementing robust security measures in digital environments.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#" class="btn secondary-btn">Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="rohit_professional.jpg" alt="Rohit Harode - Cybersecurity Specialist">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <h2 class="section-title">> About_Me <span class="blink">_</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Hello! I am a passionate cybersecurity student dedicated to securing digital environments. My journey in tech is driven by an insatiable curiosity about how systems work and how they can be exploited—and ultimately, protected.</p>
+                <p>I am currently a 6th-semester student pursuing my <strong>B.Tech</strong> at <em>Sagar Institute of Research and Technology - Excellence (SIRT-E)</em>, Bhopal, MP. (Expected Graduation: 2027).</p>
+                <p>As a highly motivated fresher, I spend my time outside the classroom playing with Linux distros, configuring networks, and analyzing traffic to understand the real-world implications of cybersecurity concepts.</p>
+            </div>
+            <div class="terminal-widget">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-body" id="terminal-text">
+                    <p class="command">> whoami</p>
+                    <p class="output">rohit.harode<br>role: cyber_sec_fresher<br>status: eager_to_learn</p>
+                    <p class="command">> systemctl status ambition</p>
+                    <p class="output active">● ambition.service - Unending drive to hack and secure.<br>&nbsp;&nbsp;&nbsp;Active: <span class="highlight">active (running)</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding" id="skills">
+        <h2 class="section-title">> Skills_&_Arsenal <span class="blink">_</span></h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Core Expertise</h3>
+                <div class="skill-tags">
+                    <span class="tag">Cybersecurity</span>
+                    <span class="tag">Networking</span>
+                    <span class="tag">Vulnerability Assessment</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Operating Systems</h3>
+                <div class="skill-tags">
+                    <span class="tag">Kali Linux</span>
+                    <span class="tag">RedHat</span>
+                    <span class="tag">Windows Server</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Security Tools</h3>
+                <div class="skill-tags">
+                    <span class="tag tech">Nmap</span>
+                    <span class="tag tech">Burp Suite</span>
+                    <span class="tag tech">Wireshark</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-padding" id="projects">
+        <h2 class="section-title">> Notable_Projects <span class="blink">_</span></h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="card-content">
+                    <h3 class="project-title">Arogya Record Portal</h3>
+                    <p class="project-desc">A secure healthcare data management system. Implemented specific architectural choices to ensure the safety and privacy of medical records, focusing on secure deployment and robust system design.</p>
+                    <div class="project-tech">
+                        <span>Web Security</span>
+                        <span>Data Privacy</span>
+                        <span>Access Control</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-btn">GitHub</a>
+                        <a href="#" class="link-btn outline">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="card-content">
+                    <h3 class="project-title">Home Automation in IoT</h3>
+                    <p class="project-desc">Developed an IoT-based home automation setup. Focused on network communication protocols, device integration, and establishing secure connections to prevent unauthorized access to the local network.</p>
+                    <div class="project-tech">
+                        <span>IoT Security</span>
+                        <span>Networking</span>
+                        <span>Hardware Integration</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="link-btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <h2 class="section-title">> Initialize_Contact <span class="blink">_</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>I am currently looking for an internship or entry-level role in Cybersecurity. My inbox is always open.</p>
+                <div class="contact-links">
+                    <a href="mailto:haroder442@gmail.com" class="contact-item">
+                        <span class="icon">📧</span>
+                        haroder442@gmail.com
+                    </a>
+                    <a href="tel:+919617043074" class="contact-item">
+                        <span class="icon">📱</span>
+                        +91 96170 43074
+                    </a>
+                    <a href="https://www.linkedin.com/in/rohit-harode-4a0a11244" target="_blank" class="contact-item">
+                        <span class="icon">💼</span>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/R-ohit96" target="_blank" class="contact-item">
+                        <span class="icon">🐙</span>
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">ID / Name</label>
+                    <input type="text" id="name" name="from_name" required placeholder="Guest_User">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="from_email" required placeholder="target@host.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message / Payload</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Enter transmission..."></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Execute Transmission</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Rohit Harode. Built from scratch with HTML, CSS, & JS.</p>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
